@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stack-bot/static/css/main.c039c925.chunk.css",
-    "main.js": "/stack-bot/static/js/main.780992bf.chunk.js",
-    "main.js.map": "/stack-bot/static/js/main.780992bf.chunk.js.map",
+    "main.js": "/stack-bot/static/js/main.23c2704a.chunk.js",
+    "main.js.map": "/stack-bot/static/js/main.23c2704a.chunk.js.map",
     "runtime-main.js": "/stack-bot/static/js/runtime-main.6822eab2.js",
     "runtime-main.js.map": "/stack-bot/static/js/runtime-main.6822eab2.js.map",
     "static/css/2.fb9ed26a.chunk.css": "/stack-bot/static/css/2.fb9ed26a.chunk.css",
-    "static/js/2.5169ecb9.chunk.js": "/stack-bot/static/js/2.5169ecb9.chunk.js",
-    "static/js/2.5169ecb9.chunk.js.map": "/stack-bot/static/js/2.5169ecb9.chunk.js.map",
+    "static/js/2.e58d1967.chunk.js": "/stack-bot/static/js/2.e58d1967.chunk.js",
+    "static/js/2.e58d1967.chunk.js.map": "/stack-bot/static/js/2.e58d1967.chunk.js.map",
     "index.html": "/stack-bot/index.html",
-    "precache-manifest.24eca13209739ba373382cabfb21327b.js": "/stack-bot/precache-manifest.24eca13209739ba373382cabfb21327b.js",
+    "precache-manifest.c0df0e7204cb2a859f0819323e029c50.js": "/stack-bot/precache-manifest.c0df0e7204cb2a859f0819323e029c50.js",
     "service-worker.js": "/stack-bot/service-worker.js",
     "static/css/2.fb9ed26a.chunk.css.map": "/stack-bot/static/css/2.fb9ed26a.chunk.css.map",
     "static/css/main.c039c925.chunk.css.map": "/stack-bot/static/css/main.c039c925.chunk.css.map"
@@ -17,8 +17,8 @@
   "entrypoints": [
     "static/js/runtime-main.6822eab2.js",
     "static/css/2.fb9ed26a.chunk.css",
-    "static/js/2.5169ecb9.chunk.js",
+    "static/js/2.e58d1967.chunk.js",
     "static/css/main.c039c925.chunk.css",
-    "static/js/main.780992bf.chunk.js"
+    "static/js/main.23c2704a.chunk.js"
   ]
 }
