@@ -5,6 +5,7 @@ import Question from "../question";
 interface QuestionsStateInterface {
   questions: Array<any>;
   loading: boolean;
+  outOfQuota: boolean;
   page: number;
 }
 
@@ -14,21 +15,24 @@ class Questions extends React.Component<any, QuestionsStateInterface> {
     this.state = {
       questions: [],
       loading: false,
-      page: 1
+      page: 1,
+      outOfQuota: false
     };
   }
 
   componentDidMount = () => {
     this.fetchQuestions(this.state.page);
-    window.addEventListener("scroll", () => {
+    window.addEventListener("scroll", async () => {
       let disatanceScrolled: number = window.innerHeight + document.documentElement.scrollTop 
       let totalHeight: number = document.documentElement.scrollHeight
       if (
-        (disatanceScrolled < totalHeight / 1.5  ) 
-      )
+        (totalHeight !== disatanceScrolled) 
+      ){
         return;
+      }
+        
       this.setState({ page: this.state.page + 1 });
-      this.fetchQuestions(this.state.page);
+      await this.fetchQuestions(this.state.page);
     });
   };
 
@@ -39,18 +43,26 @@ class Questions extends React.Component<any, QuestionsStateInterface> {
       `https://api.stackexchange.com/2.2/questions?page=${page}&pagesize=20&order=desc&sort=creation&site=stackoverflow&filter=withBody`
     );
     let fetchedQuestions = await response.json();
-    fetchedQuestions = fetchedQuestions.items;
+    if (fetchedQuestions.items) {
+      fetchedQuestions = fetchedQuestions.items;
     let questions = this.state.questions.concat(fetchedQuestions);
     this.setState({ questions, loading: false });
+    } else {
+      this.setState({outOfQuota: true, loading: false})
+    }
     } catch(error) {
-      alert(error)
+      console.log(error.message)
+      this.setState({outOfQuota: true, loading: false})
     }
   };
   
 
   render() {
-   
-    const { questions, loading } = this.state;
+    const { questions, loading, outOfQuota } = this.state;
+    console.log(outOfQuota);
+
+    if (loading && questions.length === 0 ) return <></>
+    if(outOfQuota) return <h3>Sorry, You have corssed the quota</h3>
     return (
       questions && (
         <List
