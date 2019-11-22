@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a129f7b2fb1ffb1010b9b865862211c1",
+    "revision": "83317fc07ed4b5babe3f67e8f6838e2f",
     "url": "/stack-bot/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/stack-bot/static/css/2.fb9ed26a.chunk.css"
   },
   {
-    "revision": "8f5a13193979998e1c22",
-    "url": "/stack-bot/static/css/main.37d3ea5d.chunk.css"
+    "revision": "370d8aebf1aaf80c47a5",
+    "url": "/stack-bot/static/css/main.465666d8.chunk.css"
   },
   {
     "revision": "5750ceb19f8734d798d1",
     "url": "/stack-bot/static/js/2.e58d1967.chunk.js"
   },
   {
-    "revision": "8f5a13193979998e1c22",
-    "url": "/stack-bot/static/js/main.4e5e1c57.chunk.js"
+    "revision": "370d8aebf1aaf80c47a5",
+    "url": "/stack-bot/static/js/main.33e49fd4.chunk.js"
   },
   {
     "revision": "d1ba9f50b3064c828ed5",
