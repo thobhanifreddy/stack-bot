@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/stack-bot/static/css/main.c039c925.chunk.css",
-    "main.js": "/stack-bot/static/js/main.7204d4bf.chunk.js",
-    "main.js.map": "/stack-bot/static/js/main.7204d4bf.chunk.js.map",
+    "main.js": "/stack-bot/static/js/main.b62390db.chunk.js",
+    "main.js.map": "/stack-bot/static/js/main.b62390db.chunk.js.map",
     "runtime-main.js": "/stack-bot/static/js/runtime-main.6822eab2.js",
     "runtime-main.js.map": "/stack-bot/static/js/runtime-main.6822eab2.js.map",
     "static/css/2.fb9ed26a.chunk.css": "/stack-bot/static/css/2.fb9ed26a.chunk.css",
     "static/js/2.e58d1967.chunk.js": "/stack-bot/static/js/2.e58d1967.chunk.js",
     "static/js/2.e58d1967.chunk.js.map": "/stack-bot/static/js/2.e58d1967.chunk.js.map",
     "index.html": "/stack-bot/index.html",
-    "precache-manifest.eef0ce41dec73484b7be5ec5873dcfbb.js": "/stack-bot/precache-manifest.eef0ce41dec73484b7be5ec5873dcfbb.js",
+    "precache-manifest.46082aaac039ae9ce058d9b5dba78ec1.js": "/stack-bot/precache-manifest.46082aaac039ae9ce058d9b5dba78ec1.js",
     "service-worker.js": "/stack-bot/service-worker.js",
     "static/css/2.fb9ed26a.chunk.css.map": "/stack-bot/static/css/2.fb9ed26a.chunk.css.map",
     "static/css/main.c039c925.chunk.css.map": "/stack-bot/static/css/main.c039c925.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.fb9ed26a.chunk.css",
     "static/js/2.e58d1967.chunk.js",
     "static/css/main.c039c925.chunk.css",
-    "static/js/main.7204d4bf.chunk.js"
+    "static/js/main.b62390db.chunk.js"
   ]
 }
