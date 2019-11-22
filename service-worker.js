@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/stack-bot/precache-manifest.73da7e28806af46176d55b8bbcbb2ed3.js"
+  "/stack-bot/precache-manifest.d1cbd899cf7696f8f5bc268987ba80d3.js"
 );
 
 self.addEventListener('message', (event) => {
